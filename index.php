@@ -10,6 +10,11 @@
 <body>
 
 <h1>Pick a Color</h1>
-changed
+<form method="post" action="confirm.php">
+    <label><input type="radio" value="red" name="colorPick">Red</label><br>
+    <label><input type="radio" value="green" name="colorPick">Green</label><br>
+    <label><input type="radio" value="blue" name="colorPick">Blue</label><br>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
